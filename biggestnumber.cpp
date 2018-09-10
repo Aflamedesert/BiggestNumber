@@ -15,7 +15,7 @@ int main()
   std::cin >> secondNum;
   //determine if first or second is bigger and store that in a third variable
   
- /* if(firstNum > secondNum){
+ if(firstNum > secondNum){
           biggestNum = firstNum;
   }
   else if(secondNum > firstNum){
@@ -24,9 +24,10 @@ int main()
   else{
           std::cout << "The Numbers are the same";
   }
-*/
+
 
   std::cout<<"Of those two numbers, the biggest is: ";
+  std::cout << biggestNum;
   //print out the variable representing the biggest number
 
   std::cout<<std::endl<<"Thank you for playing.\n";
